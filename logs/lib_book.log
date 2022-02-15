@@ -1,0 +1,70 @@
+Book5---678
+<QueryDict: {}>
+<QuerySet [<Book1: Book5---678>, <Book1: Book6---8930>, <Book1: BOOK6---4567>]>  show books accessed at 2022-02-02 22:10:22.155636 Hours
+Homepage was accessed at2022-02-02 22:10:27.721347 Hours
+<QuerySet [<Book1: Book11---666>, <Book1: Book23---3456>, <Book1: BOOK6---67383>, <Book1: Book9---789>]> show soft deleted books accessed at 2022-02-02 22:12:32.043276 Hours
+Book11---666 restored at 2022-02-02 22:12:34.129391 Hours
+<QueryDict: {}>
+<QuerySet [<Book1: Book5---678>, <Book1: Book6---8930>, <Book1: BOOK6---4567>, <Book1: Book11---666>]>  show books accessed at 2022-02-02 22:12:34.153384 Hours
+ BOOK6---4567>, <Book1: Book11---666>, <Book1: Book23---3456>]>  show books accessed at 2022-02-02 22:28:11.629498 Hours
+<QueryDict: {}>
+<QuerySet [<Book1: BOOK6---4567>, <Book1: Book11---666>, <Book1: Book23---3456>]>  show books accessed
+
+
+[2022-02-02  22:34:37] INFO BOOK6---4567
+[2022-02-02  22:34:43] INFO Homepage accessed
+[2022-02-02  22:34:43] INFO <QueryDict: {}>
+[2022-02-02  22:34:43] INFO <QuerySet [<Book1: BOOK66---4567>, <Book1: Book11---666>, <Book1: Book23---3456>]>  show books accessed
+[2022-02-02  22:34:47] INFO Homepage accessed
+[2022-02-02  22:34:48] INFO <QueryDict: {}>
+[2022-02-02  22:34:48] INFO <QuerySet [<Book1: BOOK66---4567>, <Book1: Book11---666>, <Book1: Book23---3456>]>  show books accessed
+[2022-02-02  22:34:51] INFO <QueryDict: {}>
+[2022-02-02  22:34:51] INFO <QuerySet [<Book1: Book11---666>, <Book1: Book23---3456>]>  show books accessed
+[2022-02-02  22:34:53] WARNING Book11---666 is made inacive
+[2022-02-02  22:34:53] INFO <QueryDict: {}>
+[2022-02-02  22:34:53] INFO <QuerySet [<Book1: Book23---3456>]>  show books accessed
+[2022-02-02  22:34:55] INFO Homepage accessed
+[2022-02-02  22:34:58] WARNING <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>, <Book1: Book23---3456>, <Book1: BOOK6---67383>, <Book1: Book9---789>]> status made inactive
+[2022-02-02  22:34:58] INFO <QueryDict: {}>
+[2022-02-02  22:34:58] INFO <QuerySet []>  show books accessed
+[2022-02-02  22:35:00] INFO Homepage accessed
+[2022-02-02  22:35:02] INFO <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>, <Book1: Book23---3456>, <Book1: BOOK6---67383>, <Book1: Book9---789>]> show soft deleted books accessed at 2022-02-02 22:35:02.153792 Hours
+[2022-02-02  22:35:03] INFO Book6---8935 restored
+[2022-02-02  22:35:03] INFO <QueryDict: {}>
+[2022-02-02  22:35:03] INFO <QuerySet [<Book1: Book6---8935>]>  show books accessed
+[2022-02-02  22:35:06] INFO Homepage accessed
+[2022-02-02  22:35:08] INFO <QuerySet [<Book1: Book11---666>, <Book1: Book23---3456>, <Book1: BOOK6---67383>, <Book1: Book9---789>]> show soft deleted books accessed at 2022-02-02 22:35:08.898792 Hours
+[2022-02-02  22:35:10] INFO Book11---666 restored
+[2022-02-02  22:35:10] INFO <QueryDict: {}>
+[2022-02-02  22:35:10] INFO <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>]>  show books accessed
+[2022-02-02  22:40:53] INFO <QueryDict: {}>
+[2022-02-02  22:40:53] INFO all_books:- <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>]>  show books accessed
+[2022-02-02  22:40:55] INFO Homepage accessed
+[2022-02-02  22:40:57] WARNING Book data:- <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>, <Book1: Book23---3456>, <Book1: BOOK6---67383>, <Book1: Book9---789>]> status made inactive
+[2022-02-02  22:40:57] INFO <QueryDict: {}>
+[2022-02-02  22:40:57] INFO all_books:- <QuerySet []>  show books accessed
+[2022-02-02  22:40:59] INFO Homepage accessed
+[2022-02-02  22:41:00] INFO Soft deleted books:- <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>, <Book1: Book23---3456>, <Book1: BOOK6---67383>, <Book1: Book9---789>]> show soft deleted books accessed at 2022-02-02 22:41:00.956860 Hours
+[2022-02-02  22:41:02] INFO Book Name:- Book6---8935 restored
+[2022-02-02  22:41:02] INFO <QueryDict: {}>
+[2022-02-02  22:41:02] INFO all_books:- <QuerySet [<Book1: Book6---8935>]>  show books accessed
+[2022-02-02  22:41:04] INFO Homepage accessed
+[2022-02-02  22:41:05] INFO Soft deleted books:- <QuerySet [<Book1: Book11---666>, <Book1: Book23---3456>, <Book1: BOOK6---67383>, <Book1: Book9---789>]> show soft deleted books accessed at 2022-02-02 22:41:05.976274 Hours
+[2022-02-02  22:41:07] INFO Book Name:- Book11---666 restored
+[2022-02-02  22:41:07] INFO <QueryDict: {}>
+[2022-02-02  22:41:07] INFO all_books:- <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>]>  show books accessed
+[2022-02-02  23:01:14] INFO <QueryDict: {}>
+[2022-02-02  23:01:14] INFO all_books:- <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>]>  show books accessed
+[2022-02-02  23:01:39] INFO Homepage accessed
+[2022-02-02  23:01:43] INFO <QueryDict: {}>
+[2022-02-02  23:01:43] INFO all_books:- <QuerySet [<Book1: Book6---8935>, <Book1: Book11---666>]>  show books accessed
+[2022-02-05  20:11:49] INFO Homepage accessed
+[2022-02-05  20:13:34] INFO Homepage accessed
+[2022-02-05  20:15:30] INFO Homepage accessed
+[2022-02-05  20:18:39] INFO Homepage accessed
+[2022-02-05  20:21:13] INFO Homepage accessed
+[2022-02-05  20:22:44] INFO Homepage accessed
+[2022-02-05  20:29:38] INFO Homepage accessed
+[2022-02-05  20:30:38] INFO Homepage accessed
+[2022-02-05  22:30:12] INFO Homepage accessed
+[2022-02-06  13:19:46] INFO Homepage accessed

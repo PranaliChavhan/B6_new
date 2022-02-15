@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Show Books </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <h3>Show Books</h3>
+        <hr>
+
+        <!-- {%for i in books%}
+        {{i.id}} {{i.name}}---{{i.price}}<br>
+        {%endfor%} -->
+
+        <table style="width: 80%;" class="table table-bordered table-dark table-striped align-middle">
+            <thead>
+            <tr>
+                <th scope="col-md-9"> Book ID</th>
+                <th scope="col">Book Name</th>
+                <th scope="col">Book Price</th>
+                <th scope="col">Book Quantity</th>
+                <th scope="col">Action</th>
+            </tr>
+            </thead>
+            {%for book in books%}
+            <tr>
+                <td>{{book.id}}</td>
+                <td>{{book.name}}</td>
+                <td>{{book.price}}</td>
+                <td>{{book.qnty}}</td>
+                <td>
+                    <a href="{%url 'edit_data' book.id%}" class="btn btn-primary">Edit</a>
+                    <form action ="{% url 'delete_data' book.id %}" method="POST">
+                        {% csrf_token %}
+                        <input type="submit" value="Hard Delete" class="btn btn-danger">
+                    </form>
+                    <form action ="{% url 'soft_delete' book.id %}" method="POST">
+                        {% csrf_token %}
+                        <input type="submit" value="soft_delete" class="btn btn-warning"> 
+                    </form>
+                </td>
+            </tr>
+            {%endfor%}
+
+        </table>
+        <a href="{%url 'homepage' %}"> Home </a>
+    </body>
+</html>

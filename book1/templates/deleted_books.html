@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Show Soft Deleted Books </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <h3>Show Soft Deleted Books</h3>
+        <hr>
+        <table style="width: 80%;" class="table table-bordered table-dark table-striped align-middle">
+            <thead>
+            <tr>
+                <th scope="col-md-9"> Book ID</th>
+                <th scope="col">Book Name</th>
+                <th scope="col">Book Price</th>
+                <th scope="col">Book Quantity</th>
+                <th scope="col">Action</th>
+            </tr>
+            </thead>
+            {%for book in books%}
+            <tr>
+                <td>{{book.id}}</td>
+                <td>{{book.name}}</td>
+                <td>{{book.price}}</td>
+                <td>{{book.qnty}}</td>
+                <td>
+                    <a href="{%url 'recover_books' book.id%}" class="btn btn-warning">Restore</a>
+                        
+                </td>
+            </tr>
+            {%endfor%}
+
+        </table>
+        <a href="{%url 'homepage' %}"> Home </a>
+    </body>
+</html>
